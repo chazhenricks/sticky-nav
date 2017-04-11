@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 nav {
   border: 1px solid black;
   display: flex;
@@ -17,7 +21,10 @@ nav ul{
   display: flex;
   align-items: baseline;
 }
-
+section{
+  margin-left: .25em;
+  margin-right: .25em;
+}
 ul li{
 
   padding:0  1.5em;
